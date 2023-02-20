@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(4, 88, 88);
+}
+img {
+    width: 600px;
+    margin-left: 60px;
+}
+h1 {
+    color: rgb(56, 11, 105);
+    font-family: 'Sunday', sans-serif;
+}
+.list {
+    color: rgb(169, 30, 34);
+    font-family: 'Muller ExtraBold DEMO', sans-serif;
+}
+.caption_size {
+    color: rgb(71, 8, 38);
+}
+.here {
+    color: orangered;
+}
+
+@font-face {
+	font-family: 'Sunday';
+	src: url('../fonts/sunday.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/sunday.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/sunday.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/sunday.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sunday.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/sunday.svg#sunday') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Muller ExtraBold DEMO';
+	src: url('../fonts/muller_extrabold_demo.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/muller_extrabold_demo.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/muller_extrabold_demo.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/muller_extrabold_demo.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/muller_extrabold_demo.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/muller_extrabold_demo.svg#muller_extrabold_demo') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+.all_list {
+    width: 600px;
+    margin: auto;
+}
