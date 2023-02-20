@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(4, 88, 88);
+    background-color: rgb(182, 223, 233);
 }
 img {
     width: 600px;
@@ -7,6 +7,10 @@ img {
 }
 h1 {
     color: rgb(56, 11, 105);
+    font-family: 'Sunday', sans-serif;
+}
+h2 {
+    color: rgb(86, 7, 48);
     font-family: 'Sunday', sans-serif;
 }
 .list {
